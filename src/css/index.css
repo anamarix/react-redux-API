@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.margen {
+  margin: 100px;
+}
+.tabla {
+  width: 100%;
+  text-align: left;
+}
+
+.tabla td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#menu {
+  background-color: blue;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#menu a {
+  color: white;
+  padding-right: 50px;
+}
+
+.publication_container {
+  max-width: 80vw;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.publication_title {
+  color: blue;
+  border-bottom: solid 1px black;
+  margin-top: 15px;
+}
+.publication_body {
+  margin-top: 10px;
+}
+.table_container h1 {
+  margin-bottom: 15px;
+}
+
+.tabla thead {
+  font-size: 25px;
+}
